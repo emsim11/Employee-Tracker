@@ -1,0 +1,31 @@
+{
+  "name": "employee-tracker",
+  "version": "1.0.0",
+  "description": "A CMS solution that creates a database for employee and company information tracking.",
+  "main": "Server.js",
+  "scripts": {
+    "start": "node Server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emsim11/Employee-Tracker.git"
+  },
+  "keywords": [
+    "CM",
+    "Employee Tracker",
+    "SQL"
+  ],
+  "author": "Emily Simone",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emsim11/Employee-Tracker/issues"
+  },
+  "homepage": "https://github.com/emsim11/Employee-Tracker#readme",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "dotenv": "^16.4.5",
+    "figlet": "^1.7.0",
+    "inquirer": "^8.2.4",
+    "pg": "^8.11.5"
+  }
+}
